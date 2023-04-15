@@ -27,7 +27,7 @@ python -m torch.distributed.launch --nproc_per_node $NUM_GPU --master_port $PORT
     --temp 0.05 \
     --do_train \
     --do_eval \
-    --lmbd1 0.6 \
-    --lmbd2 0.9 \
+    --lmbd1 0.3 \
+    --lmbd2 0.7 \
     --fp16 \
     "$@"
