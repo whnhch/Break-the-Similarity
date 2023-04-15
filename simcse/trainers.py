@@ -128,9 +128,6 @@ class CLTrainer(Trainer):
             tasks = ['STSBenchmark', 'SICKRelatedness', 'MR', 'CR', 'SUBJ', 'MPQA', 'SST2', 'TREC', 'MRPC']
         self.model.eval()
         results = se.eval(tasks)
-        
-        stsb_unifromity = results['STSBenchmark']['dev']['uniform_loss']
-        stsb_alignment = results['STSBenchmark']['dev']['align_loss']
 
         stsb_spearman = results['STSBenchmark']['dev']['spearman'][0]
 
@@ -138,7 +135,7 @@ class CLTrainer(Trainer):
 
 
         metrics = {"eval_stsb_spearman": stsb_spearman, "eval_sickr_spearman": sickr_spearman, "eval_avg_sts": (stsb_spearman + sickr_spearman) / 2, \
-                   "eval_stsb_alignment": stsb_alignment, "eval_stsb_uniformity": stsb_unifromity, }
+                   }
 
         if eval_senteval_transfer or self.args.eval_transfer:
             avg_transfer = 0
