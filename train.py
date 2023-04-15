@@ -120,7 +120,7 @@ class ModelArguments:
             "help": "Use MLP only during training"
         }
     )
-    do_exp_learning: float = field(
+    do_exp_learning: bool = field(
         default=False, 
         metadata={"help": "Whether to train explicit relationship of entailment sentences in supervised contrastive learning"}
     )
