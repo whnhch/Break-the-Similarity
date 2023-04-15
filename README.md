@@ -33,8 +33,7 @@ pip install simcse
 As we modified most of our codes from `simcse`, please follow `simcse` documents to install requriements.
 
 ### Install Datasets
-Data is available at:
-https://figshare.com/s/7ebbad4f0acdeea91af1
+Syntax Transformed Data is available at: https://figshare.com/s/7ebbad4f0acdeea91af1. Downloaded files should be under `data` directory.
 
 ### Requirements
 
