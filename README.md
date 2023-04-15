@@ -1,6 +1,6 @@
-# SynCSE: Syntax Diversity Aware Contrastive Learning of Sentence Embeddings
+# Break the Similarity: Improving Sentence Embedding via Simple Syntax Transformations at Supervised Contrastive Learning
 
-## SynCSE: Syntax Diversity Aware Contrastive Learning of Sentence Embeddings
+## Break the Similarity: Improving Sentence Embedding via Simple Syntax Transformations at Supervised Contrastive Learning
 We modified codes from `simcse`, please follow `simcse` documents.
 
 ### SimCSE: Simple Contrastive Learning of Sentence Embeddings
@@ -11,7 +11,7 @@ We modified codes from `simcse`, the code and pre-trained models for paper [SimC
 
   - [Overview](#overview)
   - [Getting Started](#getting-started)
-  - [Train SynCSE](#train-syncse)
+  - [Train Syntax Transformations](#train-syntax-transformations)
     - [Requirements](#requirements)
     - [Evaluation](#evaluation)
     - [Training](#training)
@@ -22,12 +22,12 @@ We propose a simple contrastive learning framework that works with both unlabele
 
 ## Getting Started
 
-We modified `simcse` codes. For `syncse`, first install the `simcse` package from PyPI
+We modified `simcse` codes. For `train syntax transformations`, first install the `simcse` package from PyPI
 ```bash
 pip install simcse
 ```
 
-## Train SynCSE
+## Train Syntax Transformations
 
 As we modified most of our codes from `simcse`, please follow `simcse` documents to install requriements.
 
