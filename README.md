@@ -12,6 +12,7 @@ We modified codes from `simcse`, the code and pre-trained models for paper [SimC
   - [Overview](#overview)
   - [Getting Started](#getting-started)
   - [Train Syntax Transformations](#train-syntax-transformations)
+    - [Install Datasets](#install-datasets)
     - [Requirements](#requirements)
     - [Evaluation](#evaluation)
     - [Training](#training)
@@ -30,6 +31,10 @@ pip install simcse
 ## Train Syntax Transformations
 
 As we modified most of our codes from `simcse`, please follow `simcse` documents to install requriements.
+
+### Install Datasets
+Data is available at:
+https://figshare.com/s/7ebbad4f0acdeea91af1
 
 ### Requirements
 
