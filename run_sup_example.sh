@@ -11,7 +11,7 @@ export NCCL_DEBUG=WARN
 file_name=data/supcon_bt_break_the_sim.csv
 
 python -m torch.distributed.launch --nproc_per_node $NUM_GPU --master_port $PORT_ID train.py \
-    --model_name_or_path roberta-base \
+    --model_name_or_path bert-base-uncased \
     --train_file ${file_name} \
     --output_dir result/${file_name} \
     --num_train_epochs 10 \
