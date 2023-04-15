@@ -8,7 +8,7 @@ export NCCL_DEBUG=WARN
 # Use distributed data parallel
 # If you only want to use one card, uncomment the following line and comment the line with "torch.distributed.launch"
 
-file_name=data/supcon_de_aeda.csv
+file_name=data/supcon_bt_break_the_sim.csv
 
 python -m torch.distributed.launch --nproc_per_node $NUM_GPU --master_port $PORT_ID train.py \
     --model_name_or_path roberta-base \
