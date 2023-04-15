@@ -79,6 +79,7 @@ Arguments for the evaluation script are as follows,
     * `transfer`: Evaluate on transfer tasks.
     * `full`: Evaluate on both STS and transfer tasks.
     * `na`: Manually set tasks by `--tasks`.
+    * `hans`: Evaluate the model by HANS benchmark dataset.
 * `--tasks`: Specify which dataset(s) to evaluate on. Will be overridden if `--task_set` is not `na`. See the code for a full list of tasks.
 
 ### Training
