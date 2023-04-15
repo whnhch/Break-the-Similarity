@@ -1,6 +1,6 @@
 export WANDB_ENTITY="team-hada"
 export WANDB_PROJECT="hans_test_wh"
-files=`ls -d ./result/pecE_bt_original_case8_0.8*`
+files=`ls -d ./result/supcon_bt_break_the_sim*`
 
 for file in $files
 do
