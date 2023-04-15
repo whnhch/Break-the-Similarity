@@ -1,4 +1,4 @@
-# 
+# SynCSE: Syntactic Diversity Aware Contrastive Learning of Sentence Embeddings
 
 ## SimCSE: Simple Contrastive Learning of Sentence Embeddings
 We modified codes from `simcse`, the code and pre-trained models for paper [SimCSE: Simple Contrastive Learning of Sentence Embeddings](https://arxiv.org/abs/2104.08821), for github [SimCSE: Simple Contrastive Learning of Sentence Embeddings](https://github.com/princeton-nlp/SimCSE).
