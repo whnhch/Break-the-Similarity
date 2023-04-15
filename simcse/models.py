@@ -263,7 +263,7 @@ def cl_forward(cls,
         if num_sent >= 6:
             cos_sim_e = torch.cat([cos_sim_e, torch.diagonal(cls.sim(z1.unsqueeze(1), z6.unsqueeze(0)).unsqueeze(1))], 1)
         
-    loss_fct = nn.CrossntropyLoss()
+    loss_fct = nn.CrossEntropyLoss()
     log_softmax = nn.LogSoftmax(dim=1)
 
     total=len(z1)
