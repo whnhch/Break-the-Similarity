@@ -1,6 +1,4 @@
-# Simple Syntax Transformations for Improving Sentence Embeddings at Supervised Contrastive Learning
-
-## Simple Syntax Transformations for Improving Sentence Embeddings at Supervised Contrastive Learning
+# Simple Data Transformations for Mitigating the Syntactic Similarity to Improve Sentence Embeddings at Supervised Contrastive Learning
 We modified codes from `simcse`, please follow `simcse` documents.
 
 ### SimCSE: Simple Contrastive Learning of Sentence Embeddings
